@@ -23,7 +23,7 @@ Inspiration
     progress had stalled with that application subsequently unable to find any new Mersenne Primes above the Patrick Laroche discovery back in 07/12/2018 almost half a decade ago. Hence I spent considerable time looking for 
     alternatives which did not exist and decided that I may need to rethink the logic behind it entirley. Which was the inspiration behind both the Conjecture here and the Mersenner Sieve Algorithim provided. 
     Much of the real behind the scenes effort in this algorithim is in memory managment for extremly large values of n and the Conjecture itself. The project I am refering to can be found here https://www.mersenne.org/primes 
-    and should be mentioned for it's fantastic contributions so far to Perfect Numbers and Mersenne Primes the correlation between then and the Conjecture used.
+    and should be mentioned for it's fantastic contributions so far to Perfect Numbers and Mersenne Primes the correlation between them and the Conjecture used.
     
 Usage
 
