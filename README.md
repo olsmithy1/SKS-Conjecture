@@ -43,7 +43,7 @@ Requirements
     Python 3.x
 --
 
-Mersenne Prime Conjecture - Proof by Contradiction
+# Mersenne Prime Conjecture - Proof by Contradiction
 
 This Python code explores the Sean Keith Smith Conjecture on Mersenne primes using proof by contradiction. The conjecture states that Mersenne primes (of the form 2^n - 1) correspond to even perfect numbers ending in 6 or 8.
 
