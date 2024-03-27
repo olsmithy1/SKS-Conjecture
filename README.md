@@ -17,6 +17,14 @@ Contents
     is_mersenne_prime_sks(p): Tests if 2^p - 1 is a Mersenne prime based on the Sean Keith Smith test.
     generate_mersenne_primes(): Generator function to yield Mersenne primes indefinitely.
 
+Inspiration
+
+    Gimps the Great Internet Mersenne Prime Search created a distributed computing application called prime95 many years ago to find Mersenne prime numbers, unfortunatley it seems at least to the author of this document that
+    progress had stalled with that application subsequently unable to find any new Mersenne Primes above the Patrick Laroche discovery back in 07/12/2018 almost half a decade ago. Hence I spent considerable time looking for 
+    alternatives which did not exist and decided that I may need to rethink the logic behind it entirley. Which was the inspiration behind both the Conjecture here and the Mersenner Sieve Algorithim provided. 
+    Much of the real behind the scenes effort in this algorithim is in memory managment for extremly large values of n and the Conjecture itself. The project I am refering to can be found here https://www.mersenne.org/primes 
+    and should be mentioned for it's fantastic contributions so far to Perfect Numbers and Mersenne Primes.
+    
 Usage
 
 To use the Mersenne prime generator, run the script and iterate through the generated primes:
