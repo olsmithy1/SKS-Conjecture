@@ -19,7 +19,7 @@ Usage
 
 To use the Mersenne prime generator, run the script and iterate through the generated primes:
 
-python
+python sks-conjecture.py
 
 # Example usage to print Mersenne primes
 for mersenne_prime in generate_mersenne_primes():
