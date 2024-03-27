@@ -62,5 +62,7 @@ How to Use:
 
 Note:
 
+    The Proof by Contradiction code was largely inspired by the knowledge of my collaborators on it, those being ChatGPT and Gemini so it's Proof of Concept code at best. It's always good to insure the code you are executing is correct and functions,
+    for obvious reasons I don't spend to much time trying to disprove a hypothesis I hold as significant that is the job of the reader and others although I insure you I will find such contradictions fascinating without being to hurt by it.
     This code demonstrates a simplified version of the proof by contradiction logic for educational purposes. A formal mathematical proof would require more rigorous reasoning and notation.
     Finding a contradiction for a specific even perfect number strengthens the conjecture but doesn't guarantee it holds true universally.
