@@ -6,7 +6,7 @@ Features
     Mersenne Prime Generation: Generates Mersenne primes of the form 2^p - 1 based on the Sean Keith Smith test.
     Efficient Computations: Utilizes modular exponentiation for fast computation of (base^exponent) % modulus.
     Prime Number Checking: Implements efficient algorithms to check whether a given number is prime.
-    Sean Keith Smith Test: Validates Mersenne primes using the Sean Keith Smith conjecture.
+    Sean Keith Smith Test: Validates potential Mersenne primes using the Sean Keith Smith conjecture.
 
 Contents
 
