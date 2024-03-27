@@ -67,7 +67,7 @@ def is_mersenne_prime_sks(p):
 
     # Mersenne primes are associated with even perfect numbers
     # that end in 6 or 8 based on the Sean Keith Smith conjecture.
-    return even_perfect_num == 1
+    return even_perfect_num in {1, p - 1}
 
 
 def generate_mersenne_primes():
