@@ -1,7 +1,9 @@
 Mersenne Prime Generator
 
-This Python script provides a Mersenne prime generator based on the Sean Keith Smith test. It includes functions to efficiently compute Mersenne primes and check for primality using modular exponentiation and prime checking algorithms.
+This Python script provides a Mersenne prime generator based on the Sean Keith Smith test. It includes functions to efficiently compute potential Mersenne primes and check for primality using modular exponentiation and prime checking algorithms.
 The algorithm included is based on my own conjecture regarding the nature and correlation of mersenne primes and perfect numbers. The conjecture states that Mersenne primes correspond closely to even perfect numbers ending in 6 or 8.
+It should be noted that this code generate probabilistic mersenne primes based on known attributes, that does not mean that all numbers produced by it, will be Mersenne primes and a stronger deterministic test should be used for higher
+certainty such as a Lucas-Lehmer test. 
 
 Features
 
