@@ -1,6 +1,7 @@
 Mersenne Prime Generator
 
 This Python script provides a Mersenne prime generator based on the Sean Keith Smith test. It includes functions to efficiently compute Mersenne primes and check for primality using modular exponentiation and prime checking algorithms.
+
 Features
 
     Mersenne Prime Generation: Generates Mersenne primes of the form 2^p - 1 based on the Sean Keith Smith test.
