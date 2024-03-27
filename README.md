@@ -31,3 +31,26 @@ The generate_mersenne_primes() function continuously generates Mersenne primes u
 Requirements
 
     Python 3.x
+--
+
+Mersenne Prime Conjecture - Proof by Contradiction
+
+This Python code explores the Sean Keith Smith Conjecture on Mersenne primes using proof by contradiction. The conjecture states that Mersenne primes (of the form 2^n - 1) correspond to even perfect numbers ending in 6 or 8.
+
+Functionality:
+
+    The disprove_sks_conjecture function analyzes a given even perfect number (p) to see if it contradicts the conjecture.
+    It checks the last digit of p and performs casework to identify potential contradictions based on divisibility rules.
+    If the analysis reveals a scenario where the corresponding Mersenne prime (M) cannot be prime (due to divisibility properties), it indicates a contradiction and strengthens the conjecture for that specific case.
+
+How to Use:
+
+    Clone or download this repository.
+    The code assumes you have Python installed.
+    Edit the even_perfect_num variable in the example usage section of the code with a hypothetical even perfect number that doesn't end in 6 or 8 (if one exists).
+    Run the script using python disprove-sks.py.
+
+Note:
+
+    This code demonstrates a simplified version of the proof by contradiction logic for educational purposes. A formal mathematical proof would require more rigorous reasoning and notation.
+    Finding a contradiction for a specific even perfect number strengthens the conjecture but doesn't guarantee it holds true universally.
