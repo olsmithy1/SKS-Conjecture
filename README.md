@@ -1,7 +1,6 @@
-# Mersenne Prime Sieve
+# Sean Keith Smith Conjecture
 
-This Python script provides a Mersenne prime sieve based on the Sean Keith Smith test. It includes functions to efficiently compute potential Mersenne primes and check for primality using modular exponentiation and a mersenne prime checking algorithm.
-The algorithm included is based on my own observations regarding the nature and correlation of mersenne primes and perfect numbers. Euler and others in the prime95 community have possibly made these same observations as well. The conjecture states that Mersenne primes correspond closely to even perfect numbers ending in 6 or 8. It should be noted that this code generates probabilistic mersenne primes based on known attributes. That does not mean that all numbers produced by it, will be Mersenne primes and a strong deterministic test should be used for higher certainty such as a Lucas-Lehmer.
+This Python script provides a Mersenne prime sieve based on the Sean Keith Smith conjecture. It includes functions to efficiently compute potential Mersenne primes and check for primality using modular exponentiation and a somewhat efficient mersenne prime checking algorithm. The algorithm included is based on my own observations regarding the nature and correlation of mersenne primes and perfect numbers. Euler and others in the prime95 community have possibly made these same observations as well. The conjecture states that Mersenne primes correspond closely to even perfect numbers ending in 6 or 8. It should be noted that this code generates probabilistic mersenne primes based on known attributes of perfect numbers. That does not mean that all numbers produced by it, will be Mersenne primes and a strong deterministic test should be used for higher certainty such as a Lucas-Lehmer or ECPP.
 
 Features
 
